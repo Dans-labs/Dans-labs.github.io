@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.logom {
+    border: 0;
+    border-radius: 6px;
+    margin: 0;
+}
+.logo {
+    border: 0;
+    margin: 0;
+}
+
+.egh {
+    display: block;
+    font-size: medium;
+    float: right;
+    background-color: #ffddbb;
+}
+
+h1.lab {
+    font-size: x-large;
+    color: #dd0007;
+    background-color: #dddddd;
+    border-radius: 3px;
+    padding: 1em;
+}

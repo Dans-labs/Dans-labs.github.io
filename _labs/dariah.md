@@ -1,9 +1,6 @@
 ---
-title: Dariah
-type: pages
+title: Dariah Contribution Tool
 ---
-
-![logo](images/inkind_logo.png)
 
 # About
 Assessment tool for the European DARIAH infrastructure.
