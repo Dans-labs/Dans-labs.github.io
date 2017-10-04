@@ -26,4 +26,4 @@ See also the
 [shebanq](https://ancient-data.org).
 
 # Author
-Dirk Roorda
+[Dirk Roorda](https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda)

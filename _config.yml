@@ -1,4 +1,4 @@
-title: DANS labs overview
+title: DANS labs
 email: andrea.scharnhorst@dans.knaw.nl
 description: > 
   Work done by the research group of DANS,
@@ -11,19 +11,13 @@ mainlogo: /images/dans.png
 
 url: "https://dans.knaw.nl/en/about/research-and-innovation?set_language=en" 
 github:
-  owner_name:  Dirk Roorda
-  owner_url: https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda
+  owner_name:  Andrea Scharnhorst
+  owner_url: https://dans.knaw.nl/en/about/organisation-and-policy/staff/scharnhorst
+  maintainer_name:  Dirk Roorda
+  maintainer_url: https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda
   org_url: https://github.com/Dans-labs
   repository_url: https://github.com/Dans-labs/Dans-labs.github.io
   project_tagline: Developing data apps
-
-staff:
-    - name: Andrea Scharnhorst
-      email: andrea.scharnhorst@dans.knaw.nl
-      hide: false
-    - name: Dirk Roorda
-      email: dirk.roorda@dans.knaw.nl
-      hide: false
 
 collections:
   labs:

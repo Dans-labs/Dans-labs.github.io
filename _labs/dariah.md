@@ -19,4 +19,4 @@ A lot of new web technology is introduced, explained, implemented, and tweaked.
 Here is the [site](https://dariah-beta.dans.knaw.nl), which contains links to all documentation.
 
 # Author
-Dirk Roorda
+[Dirk Roorda](https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda)

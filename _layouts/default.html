@@ -17,19 +17,25 @@
     <div class="wrapper">
       <header>
         <img src="{{ site.logo | relative_url }}" class="logom" width="100%"/>
-        <h3>{{ site.title }}</h3>
 
-        <h1 class="header">{{ site.title }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="header"><i>{{ site.description | default: site.github.project_tagline }}</i></p>
 
-        <h4><a href="{{ '/index.html' | relative_url }}">Home</a></h4>
+        <h2><a href="{{ '/index.html' | relative_url }}">About</a></h2>
 
-        <h3>Labs</h3>
+        <h3>Labs (all on <a href="{{ site.github.org_url }}">GitHub</a>)</h3>
+
         {% for lab in site.data.labs %}
             {% assign lab_url = "labs/" | append:lab.name | append:".html" %}
-            {% assign logo_url = site.github.org_url | append:"/" | append:lab.name | append:"/blob/master/" | append:lab.logo | append:"?raw=true" %}
+            {% assign repo_url = site.github.org_url | append:"/" | append:lab.name %}
+            {% if lab.logo %}
+                {% assign logo_url = repo_url | append:"/blob/master/" | append:lab.logo | append:"?raw=true" %}
+            {% else %}
+                {% assign logo_url = "/images/lab.png" | relative_url %}
+            {% endif %}
             <h4>
-                <img src="{{ logo_url }}" class="logo" width="50"/>
+                <a href="{{ repo_url }}">
+                    <img src="{{ logo_url }}" class="logo" width="50"/>
+                </a>
                 <a
                     title="{{ lab.title }}"
                     href="{{ lab_url | relative_url }}
@@ -39,11 +45,12 @@
             </h4>
         {% endfor %}
 
-        <ul>
-          <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
-        </ul>
+      <p>Maintained on
+      <a class="buttons github" href="{{ site.github.repository_url }}">GitHub</a>
+      by
+      <a class="header name" href="{{ site.github.maintainer_url }}">{{ site.github.maintainer_name }}</a>
+      </p>
 
-      <p class="header">Maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
 
       </header>
         {% assign rel_path = page.path %}

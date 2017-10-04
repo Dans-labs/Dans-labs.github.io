@@ -2,3 +2,8 @@
   logo: docs/images/inkind_logo.png
 - name: text-fabric
   logo: docs/tf.png 
+- name: RDFPreserve
+- name: recommender-systems
+  logo: docs/files/logo.png 
+- name: bit-recover
+  logo: bit-recover.png 
