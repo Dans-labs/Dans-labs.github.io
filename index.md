@@ -13,11 +13,11 @@ We collaborate on several research projects with other parties and deliver the o
 
 # The labs
 
-When we engae in research, there are often results in the form of a proof-of-concept, a pilot,
+When we engage in research, there are often results in the form of a proof-of-concept, a pilot,
 a demonstrator, or something else that is expressed in software.
 
 The quality and quantity of the individual labs vary wildly, which of course has to do
-with the amount of resources that has been spent on it, and on whether the lab became the
+with the amount of resources that has been spent on them, and on whether the lab became the
 basis for further work.
 
 This place is where we collect all those labs.
