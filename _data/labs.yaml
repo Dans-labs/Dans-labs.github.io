@@ -8,3 +8,6 @@
   logo: docs/files/logo.png 
 - name: bit-recover
   logo: bit-recover.png 
+- name: rspub-gui
+  org: EHRI
+  logo: conf/img/mpt.png
