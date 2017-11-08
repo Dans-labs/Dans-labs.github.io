@@ -1,4 +1,5 @@
 - name: dariah
+  org: Dans-labs
   logo: docs/images/inkind_logo.png
 - name: text-fabric
   logo: docs/tf.png 
