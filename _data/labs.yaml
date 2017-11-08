@@ -1,3 +1,6 @@
+- name: rspub-gui
+  org: EHRI
+  logo: conf/img/mpt.png
 - name: dariah
   org: Dans-labs
   logo: docs/images/inkind_logo.png
@@ -8,6 +11,3 @@
   logo: docs/files/logo.png 
 - name: bit-recover
   logo: bit-recover.png 
-- name: rspub-gui
-  org: EHRI
-  logo: conf/img/mpt.png
