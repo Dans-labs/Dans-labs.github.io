@@ -26,7 +26,12 @@
 
         {% for lab in site.data.labs %}
             {% assign lab_url = "labs/" | append:lab.name | append:".html" %}
-            {% assign repo_url = site.github.org_url | append:"/" | append:lab.name %}
+            {% if lab.org %}
+                {% assign org_url = site.github.url | append:"/" | append:lab.org %}
+            {% else %}
+                {% assign org_url = site.github.org_url %}
+            {% endif %}
+            {% assign repo_url = org_url | append:"/" | append:lab.name %}
             {% if lab.logo %}
                 {% assign logo_url = repo_url | append:"/blob/master/" | append:lab.logo | append:"?raw=true" %}
             {% else %}

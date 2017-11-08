@@ -11,6 +11,7 @@ mainlogo: /images/dans.png
 
 url: "https://dans.knaw.nl/en/about/research-and-innovation?set_language=en" 
 github:
+  url: https://github.com
   owner_name:  Andrea Scharnhorst
   owner_url: https://dans.knaw.nl/en/about/organisation-and-policy/staff/scharnhorst
   maintainer_name:  Dirk Roorda
