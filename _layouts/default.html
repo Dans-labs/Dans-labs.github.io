@@ -20,12 +20,12 @@
 {% assign github_url = site.github.repository_url | append:"/blob/master/" | append:rel_path %}
   <body>
     <div class="wrapper">
-      <header>
-        <img src="{{ site.logo | relative_url }}" class="logom" width="100%"/>
+      <div class="side">
+        <img src="{{ site.logo | relative_url }}" class="logom"/>
 
         <p class="header"><i>{{ site.description | default: site.github.project_tagline }}</i></p>
 
-        <h2><a href="{{ '/index.html' | relative_url }}">About</a></h2>
+        <h2><a href="{{ '/index.html' | relative_url }}">Home</a></h2>
 
         <h3>Labs (all on <a href="{{ site.github.org_url }}">GitHub</a>)</h3>
 
@@ -42,9 +42,13 @@
             {% if lab.logo %}
                 {% assign logo_url = repo_url | append:"/blob/master/" | append:lab.logo | append:"?raw=true" %}
             {% else %}
-                {% assign logo_url = "/images/lab.png" | relative_url %}
+                {% if lab.localLogo %}
+                    {% assign logo_url = "/images/" | append:lab.localLogo | append:".png" | relative_url %}
+                {% else %}
+                    {% assign logo_url = "/images/lab.png" | relative_url %}
+                {% endif %}
             {% endif %}
-            <h4>
+            <div class="lab">
                 <a href="{{ repo_url }}">
                     <img src="{{ logo_url }}" class="logo" width="50"/>
                 </a>
@@ -54,7 +58,7 @@
                 ">
                     {{ lab.name }}
                 </a>
-            </h4>
+            </div>
         {% endfor %}
         </div>
 
@@ -64,15 +68,15 @@
             <a class="header name" href="{{ site.github.maintainer_url }}">{{ site.github.maintainer_name }}</a>
         </p>
 
-      </header>
+      </div>
 
-      <section>
+      <div class="main">
         {% if page.collection %}
-            <h1 class="lab">{{ page.title }}</h1>
+            <h1 class="labtitle">{{ page.title }}</h1>
         {% endif %}
         <a target="_blank" href="{{github_url}}" class="egh">(edit) source</a>
         {{ content }}
-      </section>
+      </div>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->

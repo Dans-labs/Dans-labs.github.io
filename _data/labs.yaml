@@ -5,7 +5,11 @@
   org: Dans-labs
   logo: docs/images/inkind_logo.png
 - name: text-fabric
+  org: Dans-labs
   logo: docs/tf.png 
+- name: electron-experiments
+  org: rvanheest-DANS-KNAW
+  localLogo: electron
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 

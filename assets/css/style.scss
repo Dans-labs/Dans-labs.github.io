@@ -7,6 +7,7 @@
     border: 0;
     border-radius: 6px;
     margin: 0;
+    width: 10rem;
 }
 .logo {
     border: 0;
@@ -20,16 +21,53 @@
     background-color: #ffddbb;
 }
 
-h1.lab {
+h1.labtitle {
+    width: 100%;
     font-size: x-large;
     color: #dd0007;
     background-color: #dddddd;
     border-radius: 3px;
     padding: 1em;
 }
-.labs {
+div.wrapper {
+    width: 90vw;
     height: 80vh;
+    display: flex;
+	flex-flow: row nowrap;
+    justify-content: space-between;
+}
+div.side{
+	flex: 0 0 40%;
+    height: 100%;
     overflow: auto;
 	-webkit-overflow-scrolling: touch;
+}
+div.main{
+    height: 100%;
+	flex: 0 0 50%;
+    overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.labs {
+    width: 95%;
+    display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+    padding: 1rem 1rem 2rem 0rem;
+}
+.lab {
+    display: inline-flex;
+    width: 6rem;
+    max-width: 6rem;
+    height: 6rem;
+    max-height: 6rem;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+    border: 1pt solid #eeeeee;
+    padding: 0.5rem;
 }
 
