@@ -13,6 +13,11 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
+{% assign rel_path = page.path %}
+{% if page.collection %}
+    {% assign rel_path = page.relative_path %}
+{% endif %}
+{% assign github_url = site.github.repository_url | append:"/blob/master/" | append:rel_path %}
   <body>
     <div class="wrapper">
       <header>
@@ -23,6 +28,8 @@
         <h2><a href="{{ '/index.html' | relative_url }}">About</a></h2>
 
         <h3>Labs (all on <a href="{{ site.github.org_url }}">GitHub</a>)</h3>
+
+        <div class="labs">
 
         {% for lab in site.data.labs %}
             {% assign lab_url = "labs/" | append:lab.name | append:".html" %}
@@ -49,20 +56,15 @@
                 </a>
             </h4>
         {% endfor %}
+        </div>
 
-      <p>Maintained on
-      <a class="buttons github" href="{{ site.github.repository_url }}">GitHub</a>
-      by
-      <a class="header name" href="{{ site.github.maintainer_url }}">{{ site.github.maintainer_name }}</a>
-      </p>
-
+        <p>Maintained on
+            <a class="buttons github" href="{{ site.github.repository_url }}">GitHub</a>
+            by
+            <a class="header name" href="{{ site.github.maintainer_url }}">{{ site.github.maintainer_name }}</a>
+        </p>
 
       </header>
-        {% assign rel_path = page.path %}
-        {% if page.collection %}
-            {% assign rel_path = page.relative_path %}
-        {% endif %}
-        {% assign github_url = site.github.repository_url | append:"/blob/master/" | append:rel_path %}
 
       <section>
         {% if page.collection %}
@@ -72,9 +74,6 @@
         {{ content }}
       </section>
 
-      <footer>
-        <p><img src="{{ site.mainlogo | relative_url }}" class="logo" width="100%"/></p>
-      </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>

@@ -27,3 +27,9 @@ h1.lab {
     border-radius: 3px;
     padding: 1em;
 }
+.labs {
+    height: 50vh;
+    overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
