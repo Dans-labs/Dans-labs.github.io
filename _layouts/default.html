@@ -21,7 +21,7 @@
   <body>
     <div class="wrapper">
       <div class="side">
-        <img src="{{ site.logo | relative_url }}" class="logom"/>
+        <img src="{{ site.logo | relative_url }}" class="logom" alt="logo"/>
 
         <p class="header"><i>{{ site.description | default: site.github.project_tagline }}</i></p>
 
@@ -29,6 +29,7 @@
 
         <h3>Labs (all on <a href="{{ site.github.org_url }}">GitHub</a>)</h3>
 
+        <p>Click on a lab name to view a description, click on a logo to go to the lab's repo.</p>
         <div class="labs">
 
         {% for lab in site.data.labs %}
