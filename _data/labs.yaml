@@ -25,6 +25,9 @@
 - name: kafka-vm
   org: Dans-labs
   localLogo: kafka
+- name: wicket-experiments
+  org: Dans-labs
+  localLogo: wicket
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 

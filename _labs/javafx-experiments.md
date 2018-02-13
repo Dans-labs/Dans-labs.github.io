@@ -22,6 +22,7 @@ Richard van Heest [[DANS-KNAW]] [[LinkedIn]]
 
 [JavaFX]: https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm
 [RxJava]: http://reactivex.io/
+[EASY]: https://easy.dans.knaw.nl/
 [shoppinglist]: https://github.com/Dans-labs/javafx-experiments/tree/master/shoppinglist
 [shoppinglist-scalafx]: https://github.com/Dans-labs/javafx-experiments/tree/master/shoppinglistscalafx
 [mvi-lib]: https://github.com/Dans-labs/javafx-experiments/tree/master/mvilib
