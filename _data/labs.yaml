@@ -22,6 +22,9 @@
 - name: javafx-experiments
   org: Dans-labs
   localLogo: javafx
+- name: kafka-vm
+  org: Dans-labs
+  localLogo: kafka
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 
