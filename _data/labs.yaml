@@ -16,6 +16,9 @@
 - name: elastic6-vm
   org: Dans-labs
   localLogo: elastic
+- name: Hazelcast-experiments
+  org: Dans-labs
+  localLogo: hazelcast
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 
