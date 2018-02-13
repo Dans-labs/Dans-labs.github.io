@@ -51,3 +51,7 @@ __pycache__
 # Config files which get locally modified
 #########################################
 laf-fabric.cfg
+
+# IntelliJ
+##########
+.idea
