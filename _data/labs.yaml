@@ -10,6 +10,9 @@
 - name: electron-experiments
   org: Dans-labs
   localLogo: electron
+- name: Archivematica-Camp-York-2017
+  org: Dans-labs
+  localLogo: archivematica
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 
