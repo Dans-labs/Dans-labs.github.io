@@ -13,6 +13,9 @@
 - name: Archivematica-Camp-York-2017
   org: Dans-labs
   localLogo: archivematica
+- name: elastic6-vm
+  org: Dans-labs
+  localLogo: elastic
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 
