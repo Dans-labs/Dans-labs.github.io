@@ -8,7 +8,7 @@
   org: Dans-labs
   logo: docs/tf.png 
 - name: electron-experiments
-  org: rvanheest-DANS-KNAW
+  org: Dans-labs
   localLogo: electron
 - name: RDFPreserve
 - name: recommender-systems
