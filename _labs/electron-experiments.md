@@ -3,7 +3,7 @@ title: Electron experiments
 ---
 
 # About
-Experiments in building applications using JavaScript (ES6), TypeScript, [Electron], [ReactJS] and [Redux]. This project is part of an investigation in user interface frameworks/libraries to be used for two new frontend modules in [EASY].
+Experiments in building frontend applications using JavaScript (ES6), TypeScript, [Electron], [ReactJS] and [Redux]. This project is part of an investigation in user interface frameworks/libraries to be used for two new frontend modules in [EASY].
 
 # Tech
 Electron facilitates building native applications using JavaScript, HTML and CSS. It is also possible to employ React in Electron apps. Besides that, TypeScript provides typechecking at compile time, which avoids encountering a lot of errors on runtime.

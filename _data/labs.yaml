@@ -19,6 +19,9 @@
 - name: Hazelcast-experiments
   org: Dans-labs
   localLogo: hazelcast
+- name: javafx-experiments
+  org: Dans-labs
+  localLogo: javafx
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 
