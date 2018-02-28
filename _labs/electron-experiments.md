@@ -19,6 +19,7 @@ Within the repository there are a number of subprojects:
 * [searchapp-react] - a small search engine with live result updating using React in the browser
 * [redux-tutorial] - a first look at Redux, following a [tutorial] by [LearnCode.academy]
 * [redux-tutorial-typescript] - a port from above tutorial in TypeScript, plus a deep dive into [Webpack] configuration
+* [redux-form-tutorial] - experiments with the various form configurations from [redux-form], and a first look at routing to different pages using [react-router]
 
 # Author
 Richard van Heest [[DANS-KNAW]] [[LinkedIn]]
@@ -38,5 +39,8 @@ Richard van Heest [[DANS-KNAW]] [[LinkedIn]]
 [LearnCode.academy]: https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw
 [redux-tutorial-typescript]: https://github.com/Dans-labs/electron-experiments/tree/master/redux-tutorial-typescript
 [Webpack]: https://webpack.js.org/
+[redux-form-tutorial]: https://github.com/Dans-labs/electron-experiments/tree/master/redux-form-tutorial
+[redux-form]: https://redux-form.com/
+[react-router]: https://reacttraining.com/react-router/
 [DANS-KNAW]: https://dans.knaw.nl/en/about/organisation-and-policy/staff/heest
 [LinkedIn]: https://www.linkedin.com/in/richard-van-heest/
