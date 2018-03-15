@@ -20,6 +20,8 @@ Within the repository there are a number of subprojects:
 * [redux-tutorial] - a first look at Redux, following a [tutorial] by [LearnCode.academy]
 * [redux-tutorial-typescript] - a port from above tutorial in TypeScript, plus a deep dive into [Webpack] configuration
 * [redux-form-tutorial] - experiments with the various form configurations from [redux-form], and a first look at routing to different pages using [react-router]
+* [react-template] - a template project for quick starting with React
+* [react-redux-template] - a template project for quick starting with React and Redux
 
 # Author
 Richard van Heest [[DANS-KNAW]] [[LinkedIn]]
@@ -42,5 +44,7 @@ Richard van Heest [[DANS-KNAW]] [[LinkedIn]]
 [redux-form-tutorial]: https://github.com/Dans-labs/electron-experiments/tree/master/redux-form-tutorial
 [redux-form]: https://redux-form.com/
 [react-router]: https://reacttraining.com/react-router/
+[react-template]: https://github.com/Dans-labs/electron-experiments/tree/master/react-template
+[react-redux-template]: https://github.com/Dans-labs/electron-experiments/tree/master/react-redux-template
 [DANS-KNAW]: https://dans.knaw.nl/en/about/organisation-and-policy/staff/heest
 [LinkedIn]: https://www.linkedin.com/in/richard-van-heest/
