@@ -16,7 +16,9 @@ using `React` as a framework.
 The work is extensively documented. 
 A lot of new web technology is introduced, explained, implemented, and tweaked.
 
-Here is the [site](https://dariah-beta.dans.knaw.nl), which contains links to all documentation.
+The
+[repo](https://github.com/Dans-labs/dariah)
+contains all code and documentation.
 
 # Author
 [Dirk Roorda](https://dans.knaw.nl/en/about/organisation-and-policy/staff/roorda)

@@ -19,8 +19,8 @@ here is an example that it actually works.
 This is a Perl package using standard modules for computing checksums.
 
 # Docs
-The method and the experiments done are reported on
-[readthedocs](http://bit-recover.readthedocs.io/en/latest/about.html).
+The method and the experiments done are reported in this 
+[repo](https://github.com/Dans-labs/bit-recover).
 
 # Status
 The library is in use at the DANS, but only for one case of

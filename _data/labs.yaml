@@ -5,13 +5,15 @@
   org: Dans-labs
   logo: docs/images/inkind_logo.png
 - name: text-fabric
-  org: Dans-labs
-  logo: docs/tf.png
+  org: annotation
+  localLogo: text-fabric.png
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 
 - name: bit-recover
-  logo: bit-recover.png
+  localLogo: bit-recover.png
+- name: descartes-tei
+  localLogo: descartes-tei.png
 - name: Archivematica-Camp-York-2017
   org: Dans-labs
   localLogo: archivematica
