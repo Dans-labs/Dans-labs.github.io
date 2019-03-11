@@ -3,6 +3,7 @@ title: Descartes-TEI
 ---
 
 # About
+Conversion development environment for converting the Descartes Corpus.
 
 # Tech
 This is a Perl package.

@@ -6,14 +6,14 @@
   logo: docs/images/inkind_logo.png
 - name: text-fabric
   org: annotation
-  localLogo: text-fabric.png
+  localLogo: text-fabric
 - name: RDFPreserve
 - name: recommender-systems
   logo: docs/files/logo.png 
 - name: bit-recover
-  localLogo: bit-recover.png
+  localLogo: bit-recover
 - name: descartes-tei
-  localLogo: descartes-tei.png
+  localLogo: descartes-tei
 - name: Archivematica-Camp-York-2017
   org: Dans-labs
   localLogo: archivematica
